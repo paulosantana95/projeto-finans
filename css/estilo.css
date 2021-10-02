@@ -3,6 +3,15 @@
     color: white;
 }
 
+.fontmenu {
+    font-weight: bolder;   
+}
+
+.fontentrar {
+    font-weight: bold;
+    color:black;
+    background-color: white;
+}
 
 
 .arredondarbotao {
