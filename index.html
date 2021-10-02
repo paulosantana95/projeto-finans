@@ -18,9 +18,9 @@
   </head>
   <body>
 
-    <header>
-        <div class="cointainer">   
-            <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+    <header> <!-- inicio cabecalho -->
+        <div class="cointainer">   <!-- inicio container -->
+            <nav class="navbar navbar-expand-sm navbar-light bg-warning"> <!-- inicio menu toggle -->
             <a href="#" class="navbar-brand">
                 <img src="img/logo.png" alt="Logo da empresa finans" width="142">
             </a>
@@ -29,7 +29,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="nav-principal">
+            <div class="collapse navbar-collapse" id="nav-principal"> <!-- inicio menu -->
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a href="" class="nav-link">Home</a>
@@ -47,10 +47,145 @@
                         <a href="" class="btn btn-outline-light ml-4">Entrar</a>
                     </li>
                 </ul>
+            </div> <!-- fim menu -->
+            </nav> <!-- fim menu toggle -->
+        </div> <!-- fim container -->
+    </header><!-- fim cabecalho -->
+
+    <section id="home"> <!--Inicio section home-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex"> <!-- inicio textos da seção-->
+                    <div class="align-self-center">
+                        <h1 class="display-4">Suas contas, descomplicadas</h1>
+                        <p>
+                            Usado por mais de 1 milhão de pessoas, o Finans é uma ferramenta online que vai facilitar sua vida financeira.
+                        </p>
+                        <form class="mt-4 mb-4">
+                            <div class="input-group input-group-lg">
+                                <input type="text" placeholder="Seu e-mail" class="form-control">
+                                <div class="input-group-append">
+                                    <button type="button" class="btn-primary arredondarbotao">Cadastre-se</button>
+                                </div>
+                            </div>
+                        </form>
+                        <p>Disponível para:
+                            <a href="" class="btn btn-outline-light">
+                                <i class="fab fa-android fab-lg"></i>
+                            </a>
+                            <a href="" class="btn btn-outline-light">
+                                <i class="fab fa-apple"></i>
+                            </a>
+                        </p>
+
+                    </div>
+                </div> <!-- fim textos da seção-->
+                <div class="col-md-6 d-none d-md-block">
+                   <img src="img/capa-mulher.png" alt="mulher segurando dinheiro">
+                </div>
             </div>
-            </nav>
         </div>
-    </header>
+    </section> <!--fim section home-->
+
+    <section class="caixa"> <!--inicio section saiba-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex">
+                    <div class="align-self-center">
+                        <h2>Saiba para onde vai seu dinheiro</h2>
+                        <p>
+                            Com o Finans, você categoriza todos os seus lançamentos.
+                            Com gráficos simples, você sabe de onde vem e para onde vai o seu dinheiro.
+                        </p>
+                        <a href="" class="btn btn-primary botaoredondo">Veja mais</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/saiba.png" class="img-fluid" alt="saiba mais">
+                </div>
+            </div>
+        </div>
+
+    </section> <!--fim section saiba-->
+
+    <section class="caixa"> <!--inicio section juros -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img/juros.png" class="img-fluid" alt="saiba mais">
+                </div>
+                <div class="col-md-6 d-flex">
+                    <div class="align-self-center">
+                        <h2>Pare de pagar juros e economize</h2>
+                        <p>
+                            CManter as contas em dia é sempre um problema? O Finans avisa você: receba alertas de contas a pagar e a receber!
+                        </p>
+                        <a href="" class="btn btn-primary botaoredondo">Veja mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!--fim section juros-->
+
+    <section class="caixa"> <!--inicio section recursos -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="img/facil.png" class="img-fluid" alt="">
+                    <h4>Fácil de usar</h4>
+                    <p>
+                        O Finans vai além do básico e permite que você faça controles incríveis, essencias para suas finanças. Simples como tem que ser!
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/economize.png" class="img-fluid" alt="">
+                    <h4>Economize seu tempo</h4>
+                    <p>
+                        Tempo é dinheiro! Em segundos, você tem tudo sob controle e aproveite seu tempo com o que realmente importa pra você!
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/suporte.png" class="img-fluid" alt="">
+                    <h4>Suporte amigo</h4>
+                    <p>
+                        Dúvidas? Perguntas? Nosso suporte super legal ajuda você! A gente tá aqui pra resolver seus problemas e deixar sua vida bem mais fácil!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section> <!--fim section recursos-->
+
+    <footer class="mt-4 mb-4 footerfundo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <p>
+                        <a href="">Home</a>
+                        <a href="">Recursos</a>
+                        <a href="">Benefícios</a>
+                        <a href="">Preços</a>
+                    </p>
+                </div>
+                <div class="col-md-4 d-flex justify-content-end">
+                    <a href="" class="text-secondary fa-lg ml-4">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="" class="text-secondary fa-lg ml-4">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="" class="text-secondary fa-lg ml-4">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="" class="text-secondary fa-lg ml-4">
+                        <i class="fab fa-google-plus-g"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>

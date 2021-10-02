@@ -1,0 +1,34 @@
+#home {
+    background: #ffc107;
+    color: white;
+}
+
+
+
+.arredondarbotao {
+    border-radius: 0em 0.5em 0.5em 0em;
+    box-shadow: none;
+    outline: none;
+    border-color: transparent;
+}
+
+.arredondarbotao:hover {
+    box-shadow: none;
+    outline: none;
+    border-color: transparent;
+}
+
+.botaoredondo {
+    border-radius: 0.5em;
+}
+
+.caixa {
+    padding: 60px 0px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+footer p a {
+    margin: 5px 15px;
+    color: black;
+}
+
